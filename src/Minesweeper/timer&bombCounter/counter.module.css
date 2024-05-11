@@ -1,0 +1,13 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 48px;
+    color: #ff0701;
+    background: black;
+    font-size: 40px;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8%;
+}

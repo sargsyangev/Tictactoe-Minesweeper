@@ -1,0 +1,14 @@
+.board{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.board_row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 148px;
+    display: flex;
+}

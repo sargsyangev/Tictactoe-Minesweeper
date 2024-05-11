@@ -1,0 +1,48 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   flex-direction: column;
+  }
+  .header{
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header button {
+    width: 110px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-radius: 8%;
+  }
+  .header button:hover{
+    background-color: gray;
+    color: white;
+  }
+  .beginnerBoard{
+    width: 340px;
+    height: auto;
+    margin: 10px;
+  }
+  .mediateBoard{
+    width: 575px;
+    height: auto;
+    margin: 10px;
+  }
+  .expertBoard{
+    width: 1035px;
+    height: auto;
+    margin: 10px;
+  }
+  .backGroundBtn{
+    background: gray;
+    color: white;
+  }

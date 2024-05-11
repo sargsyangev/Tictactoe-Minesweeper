@@ -1,0 +1,52 @@
+.cell{
+    width: 33px;
+    height: 33px;
+    border: 4px solid;
+    border-right-color: #999;
+    border-bottom-color: #999;
+    border-left-color: #fff;
+    border-top-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.cell:active{
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    border-left-color: #7b7b7b;
+    border-top-color: #7b7b7b;
+}
+.visible{
+    border: 1px solid #7b7b7b;
+}
+.red{
+    background-color: red;
+
+}
+.value1{
+    color: blue;
+}
+.value2{
+    color: green;
+}
+.value3{
+    color: red;
+}
+.value4{
+    color: purple;
+}
+.value5{
+    color: yellow;
+}
+.value6{
+    color: turquoise;
+}
+.value7{
+    color: black;
+}
+.value8{
+    color: gray;
+}
